@@ -3,6 +3,7 @@
 /*****************************************/
 /********** Les boucles : For ************/
 /*****************************************/
+/*
 echo '1.Nombre de mouton : <br>';
 for ($i = 0; $i <= 10; ++$i) {
     echo $i.' mouton(s)<br>';
@@ -48,6 +49,7 @@ echo '<br><br>';
 /*****************************************/
 /********** Les boucles : Foreach ********/
 /*****************************************/
+/*
 //parcourir un tableau simple
 $couleurs = ['rouge', 'bleu', 'vert', 'orange', 'marron', 'noir', 'blanc'];
 echo '5.Les couleurs : <br>';
@@ -102,7 +104,7 @@ foreach ($vehiculeConcession as $gamme => $vehicule) {
     }
 }
 echo '<br><br>';
-
+*/
 /*###############################################*/
 /*################# ACTIVITÉS ###################*/
 /*###############################################*/
@@ -110,13 +112,15 @@ echo '<br><br>';
 //----------------------------------------
 //Créer un tableau pour les mois de l'année et affiché tous les mois de Janvier à Décembre
 //modifier et/ou remplacer les éléments ci-dessous
-echo "8.Les mois depuis le debut de l'annee : <br>";
-$mois = [];
-for ($i = 0; $i < 0; $i) {
-    echo '';
-}
-echo '<br><br>';
 
+echo "8.Les mois depuis le debut de l'annee : ";
+$mois = ["janvier","fevrier","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"];
+for ($i = 0; $i < 0; $i) {
+    echo '$i';
+}
+echo '$i';
+
+/*
 //Afficher les mois de la fin de l'année jusqu'au début de l'année
 //modifier et/ou remplacer les éléments ci-dessous
 echo "9.Les mois depuis la fin de l'annee : <br>";
@@ -208,3 +212,4 @@ echo '<br><br>';
 echo '13.Mes films : <br>';
 //ajoutez votre code ici
 echo '<br><br>';
+*/
